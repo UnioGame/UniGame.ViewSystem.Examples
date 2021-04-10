@@ -1,5 +1,51 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "UniGame",
+      "url": "http://packages.unigame.pro:4873/",
+      "scopes": [
+        "com.unigame",
+        "com.littlebigfun",
+        "com.alelievr"
+      ]
+    },
+    {
+      "name": "NpmJS",
+      "url": "https://registry.npmjs.org/",
+      "scopes": [
+        "com.codewriter"
+      ]
+    },
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.coffee",
+        "com.coffee.ui-particle",
+        "com.coffee.ui-effect",
+        "com.littlebigfun.addressable-importer",
+        "com.yasirkula",
+        "com.yasirkula.assetusagedetector",
+        "com.openupm"
+      ]
+    },
+    {
+      "name": "Game Package Registry by Google",
+      "url": "https://unityregistry-pa.googleapis.com",
+      "scopes": [
+        "com.google"
+      ]
+    },
+    {
+      "name": "Packages from jillejr",
+      "url": "https://npm.cloudsmith.io/jillejr/newtonsoft-json-for-unity/",
+      "scopes": [
+        "jillejr"
+      ]
+    }
+  ],
   "dependencies": {
+    "com.unigame.viewsystem": "2021.0.7",
     "com.unity.2d.animation": "5.0.4",
     "com.unity.2d.pixel-perfect": "4.0.1",
     "com.unity.2d.psdimporter": "4.0.2",
@@ -7,9 +53,10 @@
     "com.unity.2d.spriteshape": "5.1.1",
     "com.unity.2d.tilemap": "1.0.0",
     "com.unity.collab-proxy": "1.3.9",
-    "com.unity.ide.rider": "2.0.7",
+    "com.unity.ide.rider": "3.0.5",
     "com.unity.ide.visualstudio": "2.0.7",
     "com.unity.ide.vscode": "1.2.3",
+    "com.unity.localization": "0.10.0-preview",
     "com.unity.test-framework": "1.1.22",
     "com.unity.textmeshpro": "3.0.1",
     "com.unity.timeline": "1.4.6",

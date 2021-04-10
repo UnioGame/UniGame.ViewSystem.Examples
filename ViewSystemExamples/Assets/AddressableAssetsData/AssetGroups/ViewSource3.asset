@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ViewSource3
+  m_EditorClassIdentifier: 
+  m_GroupName: ViewSource3
+  m_Data:
+    m_SerializedData: []
+  m_GUID: db3d8a2f7bc3a7b4986a3907c9c5538a
+  m_SerializeEntries:
+  - m_GUID: df4022d9f60349c4d995092faa96fb3b
+    m_Address: Assets/Examples/NestedViewSources/ScreenSource3/ResourcePanelScreenView
+      1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5492a7004d5fd36499a81de843f9e4a5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b00bf09d804b6ed4da51a165c95f1a6e, type: 2}
+    - {fileID: 11400000, guid: f0fb512113084ad40b9a59491202a30f, type: 2}

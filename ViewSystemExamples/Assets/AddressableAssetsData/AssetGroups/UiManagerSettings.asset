@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UiManagerSettings
+  m_EditorClassIdentifier: 
+  m_GroupName: UiManagerSettings
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 66017a45ba52142469b8fe99a65746da
+  m_SerializeEntries:
+  - m_GUID: b934ec0fea087b045ba4d59a51f64b0c
+    m_Address: Assets/Examples/ListViews/Assets/ListViewItem.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6b67692f5f4115e40829656e23fba915
+    m_Address: Assets/Examples/ListViews/Assets/ListViewWindow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2dc9c1ec9e76ee54eb4aa01399f01e10
+    m_Address: Assets/Examples/ListViews/Assets/ResourcePanelScreenView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5492a7004d5fd36499a81de843f9e4a5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 73da35b73df1a8144ae0d362f09589c5, type: 2}
+    - {fileID: 11400000, guid: a339653596a79374ea7e898eba485ece, type: 2}

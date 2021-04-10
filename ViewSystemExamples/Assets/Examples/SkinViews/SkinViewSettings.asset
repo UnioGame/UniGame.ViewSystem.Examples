@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fb7e5639c338ff4a9a1cee8f5178231, type: 3}
+  m_Name: SkinViewSettings
+  m_EditorClassIdentifier: 
+  sourceName: 
+  labels: []
+  isActive: 1
+  addressableGroupName: 
+  uiViewsDefaultFolders:
+  - Assets/Examples/SkinViews/Assets/DefaultViews
+  uiViewsSkinFolders:
+  - Assets/Examples/SkinViews/Assets/Skin 0
+  - Assets/Examples/SkinViews/Assets/Skin 1
+  - Assets/Examples/SkinViews/Assets/Skin 2
+  - Assets/Examples/SkinViews/Assets/Skin 3
+  - Assets/Examples/SkinViews/Assets/Skin 4
+  - Assets/Examples/SkinViews/Assets/Skin 5
+  uiViews:
+  - AssetGUID: b2ac8ab25f0ed604eae07658602a7baa
+    Tag: Skin 0
+    Type:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoItemView, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    View:
+      m_AssetGUID: b2ac8ab25f0ed604eae07658602a7baa
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: ListViewItem 1
+  - AssetGUID: bd3ce771d060748478288fe6a7a76b43
+    Tag: Skin 1
+    Type:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoItemView, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    View:
+      m_AssetGUID: bd3ce771d060748478288fe6a7a76b43
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: ListViewItem 1
+  - AssetGUID: f226a49b05ddda24ab5b5594aaa14488
+    Tag: Skin 2
+    Type:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoItemView, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    View:
+      m_AssetGUID: f226a49b05ddda24ab5b5594aaa14488
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: ListViewItem 2
+  - AssetGUID: de53757dee057b24ba72f38eed028e22
+    Tag: Skin 3
+    Type:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoItemView, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    View:
+      m_AssetGUID: de53757dee057b24ba72f38eed028e22
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: ListViewItem 3
+  - AssetGUID: bf3f00f1731197045803f2de2749f5b0
+    Tag: Skin 4
+    Type:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoItemView, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    View:
+      m_AssetGUID: bf3f00f1731197045803f2de2749f5b0
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: ListViewItem 4
+  - AssetGUID: ba44d416ab49a0f4784aeebe18c4322d
+    Tag: Skin 5
+    Type:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoItemView, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    View:
+      m_AssetGUID: ba44d416ab49a0f4784aeebe18c4322d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: ListViewItem 5
+  - AssetGUID: f082123f7ab418a42887a44cbc9a848d
+    Tag: 
+    Type:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoItemView, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    View:
+      m_AssetGUID: f082123f7ab418a42887a44cbc9a848d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: ListViewItem
+  - AssetGUID: f33b819af9e18b24498136891136c1d8
+    Tag: 
+    Type:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoListView, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    View:
+      m_AssetGUID: f33b819af9e18b24498136891136c1d8
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: ListViewWindow
+  - AssetGUID: f1f2263e7cfcc034e86cbd04b83e909b
+    Tag: 
+    Type:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoResourcePanelScreen,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    View:
+      m_AssetGUID: f1f2263e7cfcc034e86cbd04b83e909b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: ResourcePanelScreenView
+  sources: []
+  layoutFlow: {fileID: 11400000, guid: 3ed9eac9f1f60c64b9831643e465ac69, type: 2}

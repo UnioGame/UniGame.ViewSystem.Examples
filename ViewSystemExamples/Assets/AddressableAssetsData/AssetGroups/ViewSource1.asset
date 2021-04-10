@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ViewSource1
+  m_EditorClassIdentifier: 
+  m_GroupName: ViewSource1
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9a0eb86b856c1b249b0fec745bad0f43
+  m_SerializeEntries:
+  - m_GUID: 218bbab1a38b93d47aa7373ffea156a1
+    m_Address: Assets/Examples/NestedViewSources/ScreenSource1/ListViewItem 1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5492a7004d5fd36499a81de843f9e4a5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f30bc35473d113843b6446fbf6c9c4bd, type: 2}
+    - {fileID: 11400000, guid: eb90d5464a7b8a7418ff566d24a6ba91, type: 2}

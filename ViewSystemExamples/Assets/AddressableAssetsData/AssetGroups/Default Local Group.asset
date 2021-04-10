@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a63f3f0c7b37b854dae18071dd9f90ec
+  m_SerializeEntries:
+  - m_GUID: 2dfcc507293c9c744a9c5ca324f25c21
+    m_Address: Assets/Examples/ListViews/Assets/EquipImages.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 817eb1477bfc499449242dec8f760a70
+    m_Address: Assets/Examples/ListViews/Assets/gold_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5b916f35f401fcc449d25a6445cf6f0b
+    m_Address: Assets/Examples/NestedViewSources/ViewSource2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b60ca57ddab11f0439c86596f89991eb
+    m_Address: Assets/Examples/NestedViewSources/ViewSource1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a7fb91937247c1045bc487037e78a70c
+    m_Address: Assets/Examples/NestedViewSources/ViewSource3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5492a7004d5fd36499a81de843f9e4a5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7b5b8a9d39f401a49821cf2de7d42f2b, type: 2}
+    - {fileID: 11400000, guid: 3caaac56c048e444ca53f1f7cbedb8b0, type: 2}
