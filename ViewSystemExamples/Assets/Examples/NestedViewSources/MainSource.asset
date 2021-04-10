@@ -20,16 +20,22 @@ MonoBehaviour:
   uiViewsSkinFolders: []
   uiViews: []
   sources:
-  - m_AssetGUID: b60ca57ddab11f0439c86596f89991eb
-    m_SubObjectName: 
-    m_SubObjectType: 
-    m_EditorAssetChanged: 0
-  - m_AssetGUID: 5b916f35f401fcc449d25a6445cf6f0b
-    m_SubObjectName: 
-    m_SubObjectType: 
-    m_EditorAssetChanged: 0
-  - m_AssetGUID: a7fb91937247c1045bc487037e78a70c
-    m_SubObjectName: 
-    m_SubObjectType: 
-    m_EditorAssetChanged: 0
+  - awaitLoading: 1
+    viewSourceReference:
+      m_AssetGUID: b60ca57ddab11f0439c86596f89991eb
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - awaitLoading: 1
+    viewSourceReference:
+      m_AssetGUID: 5b916f35f401fcc449d25a6445cf6f0b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - awaitLoading: 1
+    viewSourceReference:
+      m_AssetGUID: a7fb91937247c1045bc487037e78a70c
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
   layoutFlow: {fileID: 11400000, guid: 3ed9eac9f1f60c64b9831643e465ac69, type: 2}
