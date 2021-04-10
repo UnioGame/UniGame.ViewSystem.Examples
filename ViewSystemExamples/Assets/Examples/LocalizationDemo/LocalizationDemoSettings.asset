@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fb7e5639c338ff4a9a1cee8f5178231, type: 3}
+  m_Name: LocalizationDemoSettings
+  m_EditorClassIdentifier: 
+  sourceName: 
+  labels: []
+  isActive: 1
+  addressableGroupName: 
+  uiViewsDefaultFolders:
+  - Assets/Examples/LocalizationDemo/Assets
+  uiViewsSkinFolders: []
+  uiViews:
+  - AssetGUID: bfe0dc63a91777f44b2c206be43d855a
+    Tag: 
+    Type:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoItemView, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    View:
+      m_AssetGUID: bfe0dc63a91777f44b2c206be43d855a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: ListViewItem
+  - AssetGUID: 43e4135ac468ddb41970f56668e46e89
+    Tag: 
+    Type:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoListView, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    View:
+      m_AssetGUID: 43e4135ac468ddb41970f56668e46e89
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: ListViewWindow
+  - AssetGUID: 267c9f51548cb1c478c9db3a77c85cf3
+    Tag: 
+    Type:
+      fullTypeName: Examples.LocalizationDemo.Scripts.LocalizedView, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    View:
+      m_AssetGUID: 267c9f51548cb1c478c9db3a77c85cf3
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: LocalizationView
+  - AssetGUID: 5f5d2c71c977877459c7c48d024c94a4
+    Tag: 
+    Type:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoResourcePanelScreen,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    View:
+      m_AssetGUID: 5f5d2c71c977877459c7c48d024c94a4
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: ResourcePanelScreenView
+  sources: []
+  layoutFlow: {fileID: 11400000, guid: 3ed9eac9f1f60c64b9831643e465ac69, type: 2}

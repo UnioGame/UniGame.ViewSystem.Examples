@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: LocalizationDemoSettings
+  m_EditorClassIdentifier: 
+  m_GroupName: LocalizationDemoSettings
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e9df8a0839d843c41bc6ea5e294091de
+  m_SerializeEntries:
+  - m_GUID: bfe0dc63a91777f44b2c206be43d855a
+    m_Address: Assets/Examples/LocalizationDemo/Assets/ListViewItem.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 43e4135ac468ddb41970f56668e46e89
+    m_Address: Assets/Examples/LocalizationDemo/Assets/ListViewWindow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5f5d2c71c977877459c7c48d024c94a4
+    m_Address: Assets/Examples/LocalizationDemo/Assets/ResourcePanelScreenView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 267c9f51548cb1c478c9db3a77c85cf3
+    m_Address: Assets/Examples/LocalizationDemo/Assets/LocalizationView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5492a7004d5fd36499a81de843f9e4a5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f73bd7614a0ab2a43848d3d7da9c9298, type: 2}
+    - {fileID: 11400000, guid: 3bf7ebfbcfef24e4cbb476063553514d, type: 2}

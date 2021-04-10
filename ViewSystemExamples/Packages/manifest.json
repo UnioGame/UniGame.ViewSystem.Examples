@@ -45,7 +45,7 @@
     }
   ],
   "dependencies": {
-    "com.unigame.viewsystem": "2021.0.7",
+    "com.unigame.viewsystem": "2021.0.16",
     "com.unity.2d.animation": "5.0.4",
     "com.unity.2d.pixel-perfect": "4.0.1",
     "com.unity.2d.psdimporter": "4.0.2",
