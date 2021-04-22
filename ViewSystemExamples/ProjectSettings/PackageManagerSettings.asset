@@ -33,6 +33,13 @@ MonoBehaviour:
     - com.alelievr
     m_IsDefault: 0
     m_Capabilities: 0
+  - m_Id: scoped:Game Package Registry by Google
+    m_Name: Game Package Registry by Google
+    m_Url: https://unityregistry-pa.googleapis.com
+    m_Scopes:
+    - com.google
+    m_IsDefault: 0
+    m_Capabilities: 0
   - m_Id: scoped:NpmJS
     m_Name: NpmJS
     m_Url: https://registry.npmjs.org
@@ -51,13 +58,6 @@ MonoBehaviour:
     - com.yasirkula
     - com.yasirkula.assetusagedetector
     - com.openupm
-    m_IsDefault: 0
-    m_Capabilities: 0
-  - m_Id: scoped:Game Package Registry by Google
-    m_Name: Game Package Registry by Google
-    m_Url: https://unityregistry-pa.googleapis.com
-    m_Scopes:
-    - com.google
     m_IsDefault: 0
     m_Capabilities: 0
   - m_Id: scoped:Packages from jillejr

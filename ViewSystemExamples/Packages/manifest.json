@@ -10,6 +10,13 @@
       ]
     },
     {
+      "name": "Game Package Registry by Google",
+      "url": "https://unityregistry-pa.googleapis.com",
+      "scopes": [
+        "com.google"
+      ]
+    },
+    {
       "name": "NpmJS",
       "url": "https://registry.npmjs.org/",
       "scopes": [
@@ -30,13 +37,6 @@
       ]
     },
     {
-      "name": "Game Package Registry by Google",
-      "url": "https://unityregistry-pa.googleapis.com",
-      "scopes": [
-        "com.google"
-      ]
-    },
-    {
       "name": "Packages from jillejr",
       "url": "https://npm.cloudsmith.io/jillejr/newtonsoft-json-for-unity/",
       "scopes": [
@@ -45,7 +45,7 @@
     }
   ],
   "dependencies": {
-    "com.unigame.viewsystem": "2021.0.16",
+    "com.unigame.viewsystem": "2021.1.6",
     "com.unity.2d.animation": "5.0.4",
     "com.unity.2d.pixel-perfect": "4.0.1",
     "com.unity.2d.psdimporter": "4.0.2",

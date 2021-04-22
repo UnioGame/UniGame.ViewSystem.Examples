@@ -1,133 +1,49 @@
 {
   "dependencies": {
-    "com.unigame.addressablestools": {
-      "version": "2021.0.5",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unigame.neuecc.unirx": "7.1.1",
-        "com.unigame.neuecc.unitask": "2.2.3",
-        "com.unity.addressables": "1.17.15",
-        "com.unigame.unicore": "2021.0.1",
-        "com.unigame.uniroutine": "2020.0.42",
-        "com.unity.editorcoroutines": "1.0.0"
-      },
-      "url": "http://packages.unigame.pro:4873"
-    },
-    "com.unigame.contextdata": {
-      "version": "2021.0.7",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unigame.neuecc.unirx": "7.1.1",
-        "com.unigame.neuecc.unitask": "2.2.3",
-        "com.unigame.unicore": "2021.0.1",
-        "com.unity.addressables": "1.17.15",
-        "com.unity.textmeshpro": "2.1.1",
-        "com.unigame.addressablestools": "2021.0.5",
-        "com.unigame.uitoolkit": "2020.1.28"
-      },
-      "url": "http://packages.unigame.pro:4873"
-    },
-    "com.unigame.localization": {
+    "com.unigame.coremodules": {
       "version": "2021.0.6",
       "depth": 1,
       "source": "registry",
       "dependencies": {
+        "com.unity.addressables": "1.17.17",
+        "com.unity.textmeshpro": "3.0.5",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unigame.newtonsoft.json-for-unity": "2020.0.1"
+      },
+      "url": "http://packages.unigame.pro:4873"
+    },
+    "com.unigame.localization": {
+      "version": "2021.1.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
         "com.unity.localization": "0.10.0-preview",
-        "com.unigame.unicore": "2021.0.1",
-        "com.unigame.rx": "2021.0.1",
-        "com.unity.addressables": "1.17.15",
-        "com.unity.textmeshpro": "3.0.4",
-        "com.unigame.neuecc.unirx": "7.1.1",
-        "com.unigame.neuecc.unitask": "2.2.3"
+        "com.unigame.coremodules": "2021.0.6",
+        "com.unity.addressables": "1.17.17",
+        "com.unity.textmeshpro": "3.0.5"
       },
       "url": "http://packages.unigame.pro:4873"
     },
-    "com.unigame.neuecc.unirx": {
-      "version": "7.1.1",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "http://packages.unigame.pro:4873"
-    },
-    "com.unigame.neuecc.unitask": {
-      "version": "2.2.3",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "http://packages.unigame.pro:4873"
-    },
-    "com.unigame.neuecc.zstring": {
-      "version": "1.0.0",
-      "depth": 2,
-      "source": "registry",
-      "dependencies": {},
-      "url": "http://packages.unigame.pro:4873"
-    },
-    "com.unigame.rx": {
-      "version": "2021.0.1",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unigame.neuecc.unirx": "7.1.1",
-        "com.unigame.neuecc.unitask": "2.2.3",
-        "com.unigame.unicore": "2021.0.1"
-      },
-      "url": "http://packages.unigame.pro:4873"
-    },
-    "com.unigame.uitoolkit": {
-      "version": "2020.1.28",
+    "com.unigame.newtonsoft.json-for-unity": {
+      "version": "2020.0.1",
       "depth": 2,
       "source": "registry",
       "dependencies": {
-        "com.unigame.addressablestools": "2021.0.5",
-        "com.unigame.neuecc.unirx": "7.1.1",
-        "com.unigame.neuecc.unitask": "2.2.3",
-        "com.unigame.unicore": "2021.0.1",
-        "com.unity.addressables": "1.16.7"
-      },
-      "url": "http://packages.unigame.pro:4873"
-    },
-    "com.unigame.unicore": {
-      "version": "2021.0.1",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unigame.neuecc.unirx": "7.1.1",
-        "com.unigame.neuecc.unitask": "2.2.3",
-        "com.unigame.neuecc.zstring": "1.0.0",
-        "com.unity.editorcoroutines": "1.0.0"
-      },
-      "url": "http://packages.unigame.pro:4873"
-    },
-    "com.unigame.uniroutine": {
-      "version": "2020.0.42",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unigame.unicore": "2021.0.1",
-        "com.unigame.neuecc.unirx": "7.1.1",
-        "com.unigame.neuecc.unitask": "2.2.3"
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
       },
       "url": "http://packages.unigame.pro:4873"
     },
     "com.unigame.viewsystem": {
-      "version": "2021.0.16",
+      "version": "2021.1.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.localization": "0.10.0-preview",
-        "com.unigame.localization": "2021.0.6",
-        "com.unigame.neuecc.unirx": "7.1.1",
-        "com.unigame.neuecc.unitask": "2.2.3",
-        "com.unigame.contextdata": "2021.0.7",
-        "com.unigame.unicore": "2021.0.1",
-        "com.unigame.uniroutine": "2020.0.42",
-        "com.unigame.addressablestools": "2021.0.5",
-        "com.unity.addressables": "1.17.15",
-        "com.unity.textmeshpro": "3.0.4",
-        "com.unigame.rx": "2021.0.1"
+        "com.unigame.localization": "2021.1.0",
+        "com.unity.addressables": "1.17.17",
+        "com.unity.textmeshpro": "3.0.5",
+        "com.unigame.coremodules": "2021.0.6"
       },
       "url": "http://packages.unigame.pro:4873"
     },
@@ -204,7 +120,7 @@
       "dependencies": {}
     },
     "com.unity.addressables": {
-      "version": "1.17.15",
+      "version": "1.17.17",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -277,6 +193,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "2.0.0",
+      "depth": 3,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.scriptablebuildpipeline": {
       "version": "1.17.0",
       "depth": 2,
@@ -296,7 +219,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.4",
+      "version": "3.0.5",
       "depth": 1,
       "source": "registry",
       "dependencies": {
