@@ -21,7 +21,9 @@ namespace UniModules.UniGame.UiSystem.Examples.BaseUiManager
     {
         public GameViewSystemAsset uiViewManager;
 
-        [ShowAssetReference]
+#if ODIN_INSPECTOR
+        [Sirenix.OdinInspector.DrawWithUnity]
+#endif
         public AssetReference nextScene;
 
 #if ODIN_INSPECTOR
