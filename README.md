@@ -6,10 +6,6 @@ https://github.com/UniGameTeam/UniGame.ViewSystem
 
 ## Examples
 
-All examples can be found here:
-
-https://github.com/UniGameTeam/UniGame.ViewSystem.Examples
-
 ### Demo UI
 
 ![](https://github.com/UniGameTeam/UniGame.ViewSystem/blob/master/Editor/GitAssets/game-demo-ui.gif)
