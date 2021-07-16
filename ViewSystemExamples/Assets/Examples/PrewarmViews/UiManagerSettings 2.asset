@@ -13,12 +13,18 @@ MonoBehaviour:
   m_Name: UiManagerSettings 2
   m_EditorClassIdentifier: 
   sourceName: UiManagerSettingsList
-  labels: []
   isActive: 1
-  addressableGroupName: 
   uiViewsDefaultFolders:
   - Assets/Examples/ViewSystem/PrewarmViews/Assets 2
   uiViewsSkinFolders: []
+  applyAddressablesGroup: 0
+  labels: []
+  addressableGroupName: 
   uiViews: []
   sources: []
   layoutFlow: {fileID: 11400000, guid: 3ed9eac9f1f60c64b9831643e465ac69, type: 2}
+  viewModelResolvers:
+    modelFactoryTimeoutMs: 500
+    modelResolvers: []
+  references:
+    version: 1

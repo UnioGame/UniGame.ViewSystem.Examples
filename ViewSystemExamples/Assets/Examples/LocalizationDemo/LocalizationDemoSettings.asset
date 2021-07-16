@@ -13,56 +13,90 @@ MonoBehaviour:
   m_Name: LocalizationDemoSettings
   m_EditorClassIdentifier: 
   sourceName: 
-  labels: []
   isActive: 1
-  addressableGroupName: 
   uiViewsDefaultFolders:
   - Assets/Examples/LocalizationDemo/Assets
   uiViewsSkinFolders: []
+  applyAddressablesGroup: 0
+  labels: []
+  addressableGroupName: 
   uiViews:
   - AssetGUID: bfe0dc63a91777f44b2c206be43d855a
-    Tag: 
-    Type:
-      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoItemView, Assembly-CSharp,
-        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
     View:
       m_AssetGUID: bfe0dc63a91777f44b2c206be43d855a
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
     ViewName: ListViewItem
-  - AssetGUID: 43e4135ac468ddb41970f56668e46e89
     Tag: 
     Type:
-      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoListView, Assembly-CSharp,
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoItemView, Assembly-CSharp,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ModelType:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.ViewModels.DemoItemViewModel,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.ViewModels.DemoItemViewModel,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    PoolingPreloadCount: 1
+  - AssetGUID: 43e4135ac468ddb41970f56668e46e89
     View:
       m_AssetGUID: 43e4135ac468ddb41970f56668e46e89
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
     ViewName: ListViewWindow
-  - AssetGUID: 267c9f51548cb1c478c9db3a77c85cf3
     Tag: 
     Type:
-      fullTypeName: Examples.LocalizationDemo.Scripts.LocalizedView, Assembly-CSharp,
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoListView, Assembly-CSharp,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ModelType:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.ViewModels.DemoListViewModel,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.ViewModels.DemoListViewModel,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    PoolingPreloadCount: 1
+  - AssetGUID: 267c9f51548cb1c478c9db3a77c85cf3
     View:
       m_AssetGUID: 267c9f51548cb1c478c9db3a77c85cf3
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
     ViewName: LocalizationView
-  - AssetGUID: 5f5d2c71c977877459c7c48d024c94a4
     Tag: 
     Type:
-      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoResourcePanelScreen,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      fullTypeName: Examples.LocalizationDemo.Scripts.LocalizedView, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ModelType:
+      fullTypeName: Examples.LocalizationDemo.Scripts.LicalizedViewModel, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: Examples.LocalizationDemo.Scripts.LicalizedViewModel, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    PoolingPreloadCount: 1
+  - AssetGUID: 5f5d2c71c977877459c7c48d024c94a4
     View:
       m_AssetGUID: 5f5d2c71c977877459c7c48d024c94a4
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
     ViewName: ResourcePanelScreenView
+    Tag: 
+    Type:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoResourcePanelScreen,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ModelType:
+      fullTypeName: UniGame.UiSystem.Examples.BaseUiManager.Scripts.DemoResourceUiViewModel,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: UniGame.UiSystem.Examples.BaseUiManager.Scripts.DemoResourceUiViewModel,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    PoolingPreloadCount: 1
   sources: []
   layoutFlow: {fileID: 11400000, guid: 3ed9eac9f1f60c64b9831643e465ac69, type: 2}
+  viewModelResolvers:
+    modelFactoryTimeoutMs: 500
+    modelResolvers: []
+  references:
+    version: 1

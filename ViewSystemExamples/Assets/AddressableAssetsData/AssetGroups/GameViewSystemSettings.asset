@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GameViewSystemSettings
+  m_EditorClassIdentifier: 
+  m_GroupName: GameViewSystemSettings
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0e095f73ec125df438dd75bf472d8108
+  m_SerializeEntries:
+  - m_GUID: 086b1497f756f764e8aa979536d25ff9
+    m_Address: Assets/Examples/GameUiDemo/Assets/DemoSkin/DemoResourceView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3f867ef3d30ef084e806da9f2645aa7d
+    m_Address: Assets/Examples/GameUiDemo/Assets/DemoSkin/DemoWindowContentView3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 45523a4ded3abb648b0835c2311bbacf
+    m_Address: Assets/Examples/GameUiDemo/Assets/DemoSkin/DemoWindowView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5c2ce7501de992b498823933259abbc6
+    m_Address: Assets/Examples/GameUiDemo/Assets/Views/DefaultBackgroundView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6da201cc7983f554295d07c765ec7966
+    m_Address: Assets/Examples/GameUiDemo/Assets/Views/DemoResourceView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f8c257dcbb0ddc49925ebba7979bb70
+    m_Address: Assets/Examples/GameUiDemo/Assets/Views/DemoScreenView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fae6cbde7865b7545a271605c9834f55
+    m_Address: Assets/Examples/GameUiDemo/Assets/Views/DemoSuspendingScreenWindowView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a160d805959132f4094983cc865c9516
+    m_Address: Assets/Examples/GameUiDemo/Assets/Views/DemoWindowContentView1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7b3a16a72183b36458c4749cb168a3bf
+    m_Address: Assets/Examples/GameUiDemo/Assets/Views/DemoWindowContentView2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0726c23a4ab76704a8a3df56b48c19de
+    m_Address: Assets/Examples/GameUiDemo/Assets/Views/DemoWindowView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2de820614ec80c340bb2e80f44211609
+    m_Address: Assets/Examples/GameUiDemo/Assets/Views/NotificationButtonView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5492a7004d5fd36499a81de843f9e4a5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b26574178e6468f439705fb30c2ad706, type: 2}
+    - {fileID: 11400000, guid: ab68b764698103841adc52dcc40d0b5e, type: 2}

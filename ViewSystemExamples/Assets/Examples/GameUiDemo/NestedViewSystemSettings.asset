@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb50b4e9c81d9b842a7515ee5593f2d8, type: 3}
+  m_Name: NestedViewSystemSettings
+  m_EditorClassIdentifier: 
+  sourceName: NestedDemoView
+  isActive: 1
+  uiViewsDefaultFolders: []
+  uiViewsSkinFolders:
+  - Assets/Examples/GameUiDemo/Assets/NestedViews
+  applyAddressablesGroup: 0
+  labels: []
+  addressableGroupName: 
+  uiViews:
+  - AssetGUID: f42e8e3db643ab9488627366952b0097
+    View:
+      m_AssetGUID: f42e8e3db643ab9488627366952b0097
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: DemoWindowView
+    Tag: NestedViews
+    Type:
+      fullTypeName: DemoWindowView, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ModelType:
+      fullTypeName: IUiDemoWindowViewModel, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: UiDemoWindowViewModel, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    PoolingPreloadCount: 1
+  - AssetGUID: 6e1ea9741ed5b1c41b8e32610888ff63
+    View:
+      m_AssetGUID: 6e1ea9741ed5b1c41b8e32610888ff63
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: NestedDemoWindowContentView1
+    Tag: NestedViews
+    Type:
+      fullTypeName: DemoWindowContentView, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ModelType:
+      fullTypeName: IDemoWindowContentViewModel, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: DemoWindowContentViewModel, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    PoolingPreloadCount: 1

@@ -21,32 +21,30 @@ MonoBehaviour:
     m_Address: Assets/Examples/ListViews/Assets/EquipImages.png
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
   - m_GUID: 817eb1477bfc499449242dec8f760a70
     m_Address: Assets/Examples/ListViews/Assets/gold_icon.png
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
   - m_GUID: 5b916f35f401fcc449d25a6445cf6f0b
     m_Address: Assets/Examples/NestedViewSources/ViewSource2.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
   - m_GUID: b60ca57ddab11f0439c86596f89991eb
     m_Address: Assets/Examples/NestedViewSources/ViewSource1.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
   - m_GUID: a7fb91937247c1045bc487037e78a70c
     m_Address: Assets/Examples/NestedViewSources/ViewSource3.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8d36238f3e42bb2499653b85a98d70b5
+    m_Address: Assets/Examples/GameUiDemo/ViewSystemSettings.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f29a45aef5f21dc4a90429feade10e94
+    m_Address: Assets/Examples/GameUiDemo/NestedViewSystemSettings.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 5492a7004d5fd36499a81de843f9e4a5, type: 2}
   m_SchemaSet:

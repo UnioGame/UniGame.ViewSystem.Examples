@@ -13,23 +13,36 @@ MonoBehaviour:
   m_Name: ViewSource2
   m_EditorClassIdentifier: 
   sourceName: 
-  labels: []
   isActive: 1
-  addressableGroupName: 
   uiViewsDefaultFolders:
   - Assets/Examples/NestedViewSources/ScreenSource2
   uiViewsSkinFolders: []
+  applyAddressablesGroup: 0
+  labels: []
+  addressableGroupName: 
   uiViews:
   - AssetGUID: 87e13845a08de284ba1010f57393c961
-    Tag: 
-    Type:
-      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoListView, Assembly-CSharp,
-        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
     View:
       m_AssetGUID: 87e13845a08de284ba1010f57393c961
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
     ViewName: ListViewWindow 1
+    Tag: 
+    Type:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.Views.DemoListView, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ModelType:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.ViewModels.DemoListViewModel,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: UniGame.UiSystem.Examples.ListViews.ViewModels.DemoListViewModel,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    PoolingPreloadCount: 1
   sources: []
   layoutFlow: {fileID: 11400000, guid: 3ed9eac9f1f60c64b9831643e465ac69, type: 2}
+  viewModelResolvers:
+    modelFactoryTimeoutMs: 500
+    modelResolvers: []
+  references:
+    version: 1

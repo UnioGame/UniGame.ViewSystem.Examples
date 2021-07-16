@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: NestedDemoView
+  m_EditorClassIdentifier: 
+  m_GroupName: NestedDemoView
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 404ec169ce212884c96e6bdd3c12d9fd
+  m_SerializeEntries:
+  - m_GUID: f42e8e3db643ab9488627366952b0097
+    m_Address: Assets/Examples/GameUiDemo/Assets/NestedViews/DemoWindowView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6e1ea9741ed5b1c41b8e32610888ff63
+    m_Address: Assets/Examples/GameUiDemo/Assets/NestedViews/NestedDemoWindowContentView1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5492a7004d5fd36499a81de843f9e4a5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 055187e34d1663f49b97285a6913f846, type: 2}
+    - {fileID: 11400000, guid: a22409a50a790a54b92099a4458d6532, type: 2}

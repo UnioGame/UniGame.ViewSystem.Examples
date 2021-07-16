@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fb7e5639c338ff4a9a1cee8f5178231, type: 3}
+  m_Name: ViewSystemSettings
+  m_EditorClassIdentifier: 
+  sourceName: GameViewSystemSettings
+  isActive: 1
+  uiViewsDefaultFolders:
+  - Assets/Examples/GameUiDemo/Assets/Views
+  uiViewsSkinFolders:
+  - Assets/Examples/GameUiDemo/Assets/DemoSkin
+  applyAddressablesGroup: 0
+  labels: []
+  addressableGroupName: 
+  uiViews:
+  - AssetGUID: 086b1497f756f764e8aa979536d25ff9
+    View:
+      m_AssetGUID: 086b1497f756f764e8aa979536d25ff9
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: DemoResourceView
+    Tag: DemoSkin
+    Type:
+      fullTypeName: DemoResourceView, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ModelType:
+      fullTypeName: IDemoResourceViewModel, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: DemoResourceViewModel, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    PoolingPreloadCount: 1
+  - AssetGUID: 3f867ef3d30ef084e806da9f2645aa7d
+    View:
+      m_AssetGUID: 3f867ef3d30ef084e806da9f2645aa7d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: DemoWindowContentView3
+    Tag: DemoSkin
+    Type:
+      fullTypeName: DemoWindowContentView, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ModelType:
+      fullTypeName: IDemoWindowContentViewModel, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: DemoWindowContentViewModel, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    PoolingPreloadCount: 1
+  - AssetGUID: 45523a4ded3abb648b0835c2311bbacf
+    View:
+      m_AssetGUID: 45523a4ded3abb648b0835c2311bbacf
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: DemoWindowView
+    Tag: DemoSkin
+    Type:
+      fullTypeName: DemoWindowView, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ModelType:
+      fullTypeName: IUiDemoWindowViewModel, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: UiDemoWindowViewModel, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    PoolingPreloadCount: 1
+  - AssetGUID: 5c2ce7501de992b498823933259abbc6
+    View:
+      m_AssetGUID: 5c2ce7501de992b498823933259abbc6
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: DefaultBackgroundView
+    Tag: 
+    Type:
+      fullTypeName: UniGame.ViewSystem.Backgrounds.DefaultFadeBackgroundView, unigame.viewsystem.runtime,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ModelType:
+      fullTypeName: UniGame.UiSystem.Runtime.Backgrounds.Abstract.IBackgroundViewModel,
+        unigame.viewsystem.runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: Taktika.UI.Backgrounds.DefaultBackgroundViewModel, unigame.viewsystem.runtime,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    PoolingPreloadCount: 1
+  - AssetGUID: 6da201cc7983f554295d07c765ec7966
+    View:
+      m_AssetGUID: 6da201cc7983f554295d07c765ec7966
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: DemoResourceView
+    Tag: 
+    Type:
+      fullTypeName: DemoResourceView, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ModelType:
+      fullTypeName: IDemoResourceViewModel, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: DemoResourceViewModel, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    PoolingPreloadCount: 1
+  - AssetGUID: 2f8c257dcbb0ddc49925ebba7979bb70
+    View:
+      m_AssetGUID: 2f8c257dcbb0ddc49925ebba7979bb70
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: DemoScreenView
+    Tag: 
+    Type:
+      fullTypeName: DemoGameScreenView, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ModelType:
+      fullTypeName: DemoUiScreenViewModel, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: DemoUiScreenViewModel, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    PoolingPreloadCount: 1
+  - AssetGUID: fae6cbde7865b7545a271605c9834f55
+    View:
+      m_AssetGUID: fae6cbde7865b7545a271605c9834f55
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: DemoSuspendingScreenWindowView
+    Tag: 
+    Type:
+      fullTypeName: DemoSuspendingScreenWindowView, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    ModelType:
+      fullTypeName: EmptyViewModel, unigame.viewsystem.runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: EmptyViewModel, unigame.viewsystem.runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    PoolingPreloadCount: 1
+  - AssetGUID: a160d805959132f4094983cc865c9516
+    View:
+      m_AssetGUID: a160d805959132f4094983cc865c9516
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: DemoWindowContentView1
+    Tag: 
+    Type:
+      fullTypeName: DemoWindowContentView, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ModelType:
+      fullTypeName: IDemoWindowContentViewModel, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: DemoWindowContentViewModel, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    PoolingPreloadCount: 1
+  - AssetGUID: 7b3a16a72183b36458c4749cb168a3bf
+    View:
+      m_AssetGUID: 7b3a16a72183b36458c4749cb168a3bf
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: DemoWindowContentView2
+    Tag: demo-window-content-skin1
+    Type:
+      fullTypeName: DemoWindowContentView, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ModelType:
+      fullTypeName: IDemoWindowContentViewModel, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: DemoWindowContentViewModel, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    PoolingPreloadCount: 1
+  - AssetGUID: 0726c23a4ab76704a8a3df56b48c19de
+    View:
+      m_AssetGUID: 0726c23a4ab76704a8a3df56b48c19de
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: DemoWindowView
+    Tag: 
+    Type:
+      fullTypeName: DemoWindowView, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ModelType:
+      fullTypeName: IUiDemoWindowViewModel, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: UiDemoWindowViewModel, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    PoolingPreloadCount: 1
+  - AssetGUID: 2de820614ec80c340bb2e80f44211609
+    View:
+      m_AssetGUID: 2de820614ec80c340bb2e80f44211609
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ViewName: NotificationButtonView
+    Tag: 
+    Type:
+      fullTypeName: NotificationButtonView, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    ModelType:
+      fullTypeName: EmptyViewModel, unigame.viewsystem.runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    ViewModelType:
+      fullTypeName: EmptyViewModel, unigame.viewsystem.runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    PoolingPreloadCount: 1
+  sources:
+  - awaitLoading: 0
+    viewSourceReference:
+      m_AssetGUID: f29a45aef5f21dc4a90429feade10e94
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  layoutFlow: {fileID: 11400000, guid: c22cfe04dc8dc9e43b8b9b36576fab63, type: 2}
+  viewModelResolvers:
+    modelFactoryTimeoutMs: 500
+    modelResolvers: []
+  references:
+    version: 1

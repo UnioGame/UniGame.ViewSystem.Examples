@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: MainSource
   m_EditorClassIdentifier: 
   sourceName: 
-  labels: []
   isActive: 1
-  addressableGroupName: 
   uiViewsDefaultFolders: []
   uiViewsSkinFolders: []
+  applyAddressablesGroup: 0
+  labels: []
+  addressableGroupName: 
   uiViews: []
   sources:
   - awaitLoading: 1
@@ -39,3 +40,8 @@ MonoBehaviour:
       m_SubObjectType: 
       m_EditorAssetChanged: 0
   layoutFlow: {fileID: 11400000, guid: 3ed9eac9f1f60c64b9831643e465ac69, type: 2}
+  viewModelResolvers:
+    modelFactoryTimeoutMs: 500
+    modelResolvers: []
+  references:
+    version: 1
